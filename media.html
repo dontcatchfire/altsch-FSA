@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Page</title>
+  <link rel="stylesheet" href="asset/styles/media.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <span>FS Assignment</span>
+      <ul>
+        <li><a href="./index.html" target="_blank">About Me</a></li>
+        <li><a href="./form.html" target="_blank">Form</a></li>
+        <li><a href="./table.html" target="_blank">Table</a></li>
+        <li><a href="#" target="_self">Media</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Media Page</h1>
+    <blockquote>
+      "The traveler’s-eye view of men and women is not satisfying. A man might spend his life in trains and restaurants and know nothing of humanity at the end. To know, one must be an actor as well as a spectator." <br>
+      — Aldous Huxley
+    </blockquote>
+    <hr>
+
+    <section class="picture-section">
+      <h2>Pictures</h2>
+      <h3>Grass, Money, Clouds</h3>
+      <p>Here are three pictures. One catches my attention, one causes great sorrow, and the other gives me relief. <br> I'm pretty sure you'll be able to figure it out which one does what.</p>
+
+      <picture title="Touch grass">
+        <source media="(max-width: 500px)" srcset="">
+        <source media="(max-width: 1200px)" srcset="">
+        <source media="(min-width: 2000px)" srcset="">
+        <img src="./asset/images/touch grass - 843 XL.jpg" alt="grass">
+        <caption>touch grass: a helpful reminder in today's screen-obsessed world</caption>
+      </picture>
+
+      <picture title="They call it money">
+        <source media="(max-width: 400px)" srcset="./asset/images/1000 naira - 400S">
+        <source media="(max-width: 600px)" srcset="./asset/images/1000 naira - 600M">
+        <source media="(min-width: 800px)" srcset="./asset/images/1000 naira - 800L">
+        <img src="./asset/images/1000 naira.jpg" alt="1000 naira">
+        <caption>a tragic story - that's it</caption>
+      </picture>
+
+      <picture title="Heaven's cushion, a.k.a. clouds">
+        <source media="(max-width: 400px)" srcset="./asset/images/clouds - 400S">
+        <source media="(max-width: 600px)" srcset="./asset/images/clouds - 600M">
+        <source media="(max-width: 800px)" srcset="./asset/images/clouds - 800L">
+        <img src="./asset/images/clouds.jpg" alt="clouds in the sky">
+        <caption>clouds - something to thank God for</caption>
+      </picture>
+
+    </section>
+    <hr>
+
+    <section class="video-section">
+      <!-- iframe videos -->
+      <h2>Videos</h2>
+      <h3>Video embedded from an external website</h3>
+      <p>I "made" the songs with <a href="https://www.udio.com/home">Udio</a> and turned it into a video using <a href="https://www.capcut.com/">CapCut</a>.</p>
+      <div class="videos">
+        <div class="video-items">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AbeQE3k2u6s?si=-a5ZRtBW_73uFwBO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+      
+      <div class="videos">
+        <div class="video-items">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/43Y3CWgxr6k?si=AwlsJGDGt1aRG5vM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+    <hr>
+
+    <section class="audio-section">
+      <h2>Audios</h2>
+      <h3>Music</h3>
+      <p>A song by the magnificent KSHMR and ethereal the Tigerlily. It's House, it's Bigroom, and it's ethnic.</p>
+
+      <audio controls title="KHSMR & Tigerlily - Invisible Children">
+        <source src="./asset/audios/KSHMR & Tigerlily - Invisible Children (Extended Mix).mp3">
+        Your browser does not support this audio element
+      </audio>
+
+      <h3>Speech</h3>
+      <p>The famous and awe-inspiring Moonshot Speech by JFK - one of the best speeches by a president.</p>
+
+      <audio controls title="JFK - Moonshot Speech">
+        <source src="./asset/audios/President Kennedy s 1962 Moon Speech.mp3">
+        Your browser does not support this audio element
+      </audio>
+
+    </section>
+    <hr>
+
+    <section class="finale">
+      <h2>That's all folks</h2>
+      <p>Thanks for coming to my TED talk</p>
+      <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/1ZVBVvY5kS7qUHhqI2" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/laff-tv-jim-carrey-truman-show-the-1ZVBVvY5kS7qUHhqI2">via GIPHY</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Dont Catch Fire, 2024</p>
+  </footer>
+</body>
+</html>
